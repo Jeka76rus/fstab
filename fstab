@@ -3,7 +3,7 @@
 #
 # <file system>	<dir>	<type>	<options>	<dump>	<pass>
 # UUID=436ec862-df27-4360-ab09-5a19eb5ea6e4 LABEL=root
-/dev/sda3           	/         	ext4      	discard,rw,relatime,data=ordered	0 1
+/dev/sda3           	/         	ext4      	discard,rw,relatime,data=ordered,errors=continue	0 1
 
 # UUID=6d16a88e-55f4-4bfb-8b2a-dd3ec797f1ba LABEL=boot
 /dev/sda2           	/boot     	ext2      	discard,rw,relatime	0 2
@@ -12,14 +12,14 @@
 /dev/sda1           	/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro	0 2
 
 # UUID=8ebab256-667e-43ed-ba3f-c1f6ba470e54 LABEL=home
-/dev/sdb1           	/home     	ext4      	rw,relatime,data=ordered	0 2
+/dev/sdb1           	/home     	ext4      	rw,relatime,data=ordered,errors=continue	0 2
 
 
 # UUID=9dae64b5-11a9-482e-a5e9-34a790cd0bba LABEL=swap
 /dev/sdb2           	none      	swap      	defaults  	0 0
 
 # UUID=e9f4be98-9cf0-45ea-bf63-8dd3c541859e LABEL=var
-/dev/sdb4           	/var      	ext4      	rw,relatime,data=ordered	0 2
+/dev/sdb4           	/var      	ext4      	rw,relatime,data=ordered,errors=continue	0 2
 
 
 tmpfs /tmp tmpfs nodev,nosuid,size=13G 0 0
