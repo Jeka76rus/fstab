@@ -1,0 +1,214 @@
+[10508.694586] PM: Suspending system (mem)
+[10508.694607] Suspending console(s) (use no_console_suspend to debug)
+[10508.694766] wlp3s0: deauthenticating from 00:07:26:3f:a2:a1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[10508.708216] sd 4:0:0:0: [sdb] Synchronizing SCSI cache
+[10508.708317] sd 4:0:0:0: [sdb] Stopping disk
+[10508.708337] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[10508.708552] sd 2:0:0:0: [sda] Stopping disk
+[10509.762150] PM: suspend of devices complete after 1066.547 msecs
+[10509.782201] PM: late suspend of devices complete after 20.030 msecs
+[10509.783174] pcieport 0000:00:1c.3: System wakeup enabled by ACPI
+[10509.783229] xhci_hcd 0000:00:14.0: System wakeup enabled by ACPI
+[10509.795529] PM: noirq suspend of devices complete after 13.313 msecs
+[10509.795817] ACPI: Preparing to enter system sleep state S3
+[10509.808662] ACPI : EC: EC stopped
+[10509.808662] PM: Saving platform NVS memory
+[10509.808698] Disabling non-boot CPUs ...
+[10509.826573] smpboot: CPU 1 is now offline
+[10509.846579] smpboot: CPU 2 is now offline
+[10509.866598] smpboot: CPU 3 is now offline
+[10509.893279] smpboot: CPU 4 is now offline
+[10509.913275] smpboot: CPU 5 is now offline
+[10509.933286] smpboot: CPU 6 is now offline
+[10509.959976] smpboot: CPU 7 is now offline
+[10509.962919] ACPI: Low-level resume complete
+[10509.962999] ACPI : EC: EC started
+[10509.963000] PM: Restoring platform NVS memory
+[10509.963539] Enabling non-boot CPUs ...
+[10509.963617] x86: Booting SMP configuration:
+[10509.963619] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[10509.979165]  cache: parent cpu1 should not be sleeping
+[10509.979455] CPU1 is up
+[10509.979493] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[10509.995079]  cache: parent cpu2 should not be sleeping
+[10509.995342] CPU2 is up
+[10509.995395] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[10510.011015]  cache: parent cpu3 should not be sleeping
+[10510.011266] CPU3 is up
+[10510.011300] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[10510.027201]  cache: parent cpu4 should not be sleeping
+[10510.027480] CPU4 is up
+[10510.027519] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[10510.043131]  cache: parent cpu5 should not be sleeping
+[10510.043398] CPU5 is up
+[10510.043432] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[10510.059123]  cache: parent cpu6 should not be sleeping
+[10510.059377] CPU6 is up
+[10510.059414] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[10510.075190]  cache: parent cpu7 should not be sleeping
+[10510.075466] CPU7 is up
+[10510.095841] ACPI: Waking up from system sleep state S3
+[10510.119134] xhci_hcd 0000:00:14.0: System wakeup disabled by ACPI
+[10510.130444] PM: noirq resume of devices complete after 12.511 msecs
+[10510.131151] PM: early resume of devices complete after 0.670 msecs
+[10510.131460] pcieport 0000:00:1c.3: System wakeup disabled by ACPI
+[10510.133195] rtc_cmos 00:02: System wakeup disabled by ACPI
+[10510.141483] sd 2:0:0:0: [sda] Starting disk
+[10510.141538] sd 4:0:0:0: [sdb] Starting disk
+[10510.171698] r8169 0000:04:00.0 enp4s0: link down
+[10510.452435] ata5: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[10510.457641] ata5.00: failed to IDENTIFY (INIT_DEV_PARAMS failed, err_mask=0x80)
+[10510.457642] ata5.00: revalidation failed (errno=-5)
+[10510.601503] iwlwifi 0000:03:00.0: L1 Enabled - LTR Enabled
+[10510.601761] iwlwifi 0000:03:00.0: L1 Enabled - LTR Enabled
+[10510.807580] iwlwifi 0000:03:00.0: L1 Enabled - LTR Enabled
+[10510.807838] iwlwifi 0000:03:00.0: L1 Enabled - LTR Enabled
+[10510.827093] PM: resume of devices complete after 695.377 msecs
+[10510.827275] PM: Finishing wakeup.
+[10510.827277] Restarting tasks ... done.
+[10510.986195] usb 1-5: new full-speed USB device number 6 using xhci_hcd
+[10511.178225] Bluetooth: hci0: read Intel version: 370710018002030d00
+[10514.337342] wlp3s0: authenticate with 00:07:26:3f:a2:a1
+[10514.339968] wlp3s0: send auth to 00:07:26:3f:a2:a1 (try 1/3)
+[10514.341718] wlp3s0: authenticated
+[10514.342213] wlp3s0: associate with 00:07:26:3f:a2:a1 (try 1/3)
+[10514.358595] wlp3s0: RX AssocResp from 00:07:26:3f:a2:a1 (capab=0x411 status=0 aid=1)
+[10514.361900] wlp3s0: associated
+[10515.456523] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[10515.458420] ata3.00: supports DRM functions and may not be fully accessible
+[10515.458469] ata3.00: disabling queued TRIM support
+[10515.458630] ata3.00: supports DRM functions and may not be fully accessible
+[10515.458671] ata3.00: disabling queued TRIM support
+[10515.458674] ata3.00: configured for UDMA/133
+[10515.569277] Bluetooth: hci0: Intel Bluetooth firmware file: intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+[10515.769005] Bluetooth: hci0: Intel Bluetooth firmware patch completed and activated
+[10515.780102] ata5: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[10515.785306] ata5.00: failed to IDENTIFY (INIT_DEV_PARAMS failed, err_mask=0x80)
+[10515.785310] ata5.00: revalidation failed (errno=-5)
+[10515.785315] ata5: limiting SATA link speed to 3.0 Gbps
+[10521.104396] ata5: SATA link up 3.0 Gbps (SStatus 123 SControl 320)
+[10521.109642] ata5.00: failed to IDENTIFY (INIT_DEV_PARAMS failed, err_mask=0x80)
+[10521.109646] ata5.00: revalidation failed (errno=-5)
+[10521.109648] ata5.00: disabled
+[10521.121133] sd 4:0:0:0: [sdb] Start/Stop Unit failed: Result: hostbyte=0x04 driverbyte=0x00
+[10521.121158] sd 4:0:0:0: [sdb] tag#7 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121161] sd 4:0:0:0: [sdb] tag#7 CDB: opcode=0x2a 2a 00 35 4e e8 40 00 00 08 00
+[10521.121163] blk_update_request: I/O error, dev sdb, sector 894363712
+[10521.121167] EXT4-fs warning (device sdb4): ext4_end_bio:329: I/O error -5 writing to inode 390244 (offset 0 size 0 starting block 111795465)
+[10521.121170] Buffer I/O error on device sdb4, logical block 1694728
+[10521.121184] sd 4:0:0:0: [sdb] tag#8 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121186] sd 4:0:0:0: [sdb] tag#8 CDB: opcode=0x2a 2a 00 35 04 55 e0 00 00 48 00
+[10521.121187] blk_update_request: I/O error, dev sdb, sector 889476576
+[10521.121202] sd 4:0:0:0: [sdb] tag#9 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121204] sd 4:0:0:0: [sdb] tag#9 CDB: opcode=0x2a 2a 00 34 c5 08 68 00 00 08 00
+[10521.121205] blk_update_request: I/O error, dev sdb, sector 885327976
+[10521.121207] EXT4-fs warning (device sdb4): ext4_end_bio:329: I/O error -5 writing to inode 132858 (offset 0 size 4096 starting block 110665998)
+[10521.121209] Buffer I/O error on device sdb4, logical block 565261
+[10521.121215] Aborting journal on device sdb4-8.
+[10521.121217] sd 4:0:0:0: [sdb] tag#10 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121218] sd 4:0:0:0: [sdb] tag#10 CDB: opcode=0x28 28 00 34 c5 b8 08 00 00 08 00
+[10521.121220] blk_update_request: I/O error, dev sdb, sector 885372936
+[10521.121239] sd 4:0:0:0: [sdb] tag#11 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121241] sd 4:0:0:0: [sdb] tag#11 CDB: opcode=0x2a 2a 00 35 04 08 00 00 00 08 00
+[10521.121243] blk_update_request: I/O error, dev sdb, sector 889456640
+[10521.121245] blk_update_request: I/O error, dev sdb, sector 889456640
+[10521.121247] Buffer I/O error on dev sdb4, logical block 1081344, lost sync page write
+[10521.121258] sd 4:0:0:0: [sdb] tag#12 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121260] sd 4:0:0:0: [sdb] tag#12 CDB: opcode=0x28 28 00 34 c5 b8 08 00 00 08 00
+[10521.121261] blk_update_request: I/O error, dev sdb, sector 885372936
+[10521.121271] JBD2: Error -5 detected when updating journal superblock for sdb4-8.
+[10521.121287] sd 4:0:0:0: [sdb] tag#13 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121289] sd 4:0:0:0: [sdb] tag#13 CDB: opcode=0x2a 2a 00 34 80 08 00 00 00 08 00
+[10521.121291] blk_update_request: I/O error, dev sdb, sector 880805888
+[10521.121292] blk_update_request: I/O error, dev sdb, sector 880805888
+[10521.121294] Buffer I/O error on dev sdb4, logical block 0, lost sync page write
+[10521.121316] EXT4-fs error (device sdb4): ext4_journal_check_start:56: 
+[10521.121319] EXT4-fs (sdb4): previous I/O error to superblock detected
+[10521.121321] Detected aborted journal
+
+[10521.121323] EXT4-fs (sdb4): Remounting filesystem read-only
+[10521.121337] sd 4:0:0:0: [sdb] tag#14 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121341] sd 4:0:0:0: [sdb] tag#14 CDB: opcode=0x2a 2a 00 34 80 08 00 00 00 08 00
+[10521.121342] blk_update_request: I/O error, dev sdb, sector 880805888
+[10521.121345] Buffer I/O error on dev sdb4, logical block 0, lost sync page write
+[10521.121366] EXT4-fs error (device sdb4): ext4_journal_check_start:56: Detected aborted journal
+[10521.121388] sd 4:0:0:0: [sdb] tag#15 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.121392] sd 4:0:0:0: [sdb] tag#15 CDB: opcode=0x2a 2a 00 34 80 08 00 00 00 08 00
+[10521.121395] Buffer I/O error on dev sdb4, logical block 0, lost sync page write
+[10521.127694] sd 4:0:0:0: [sdb] tag#16 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10521.127698] sd 4:0:0:0: [sdb] tag#16 CDB: opcode=0x2a 2a 00 34 ab 78 08 00 00 08 00
+[10521.127701] EXT4-fs warning (device sdb4): ext4_end_bio:329: I/O error -5 writing to inode 132851 (offset 0 size 4096 starting block 110456578)
+[10521.127703] Buffer I/O error on device sdb4, logical block 355841
+[10521.166253] wlp3s0: deauthenticating from 00:07:26:3f:a2:a1 by local choice (Reason: 3=DEAUTH_LEAVING)
+[10521.185752] IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready
+[10521.453614] EXT4-fs warning (device sdb1): ext4_end_bio:329: I/O error -5 writing to inode 10485853 (offset 0 size 4096 starting block 42641801)
+[10521.453617] Buffer I/O error on device sdb1, logical block 42641544
+[10521.453734] EXT4-fs (sdb1): Delayed block allocation failed for inode 10485803 at logical offset 0 with max blocks 1 with error 5
+[10521.453736] EXT4-fs (sdb1): This should not happen!! Data will be lost
+
+[10522.812504] Aborting journal on device sdb1-8.
+[10522.812522] Buffer I/O error on dev sdb1, logical block 52461568, lost sync page write
+[10522.812529] JBD2: Error -5 detected when updating journal superblock for sdb1-8.
+[10523.150830] Buffer I/O error on dev sdb1, logical block 0, lost sync page write
+[10523.150858] EXT4-fs error (device sdb1): ext4_journal_check_start:56: Detected aborted journal
+[10523.150863] EXT4-fs (sdb1): Remounting filesystem read-only
+[10523.150865] EXT4-fs (sdb1): previous I/O error to superblock detected
+[10523.150881] Buffer I/O error on dev sdb1, logical block 0, lost sync page write
+[10570.771798] scsi_io_completion: 6 callbacks suppressed
+[10570.771804] sd 4:0:0:0: [sdb] tag#23 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10570.771806] sd 4:0:0:0: [sdb] tag#23 CDB: opcode=0x28 28 00 17 84 9a a0 00 00 10 00
+[10570.771807] blk_update_request: 13 callbacks suppressed
+[10570.771808] blk_update_request: I/O error, dev sdb, sector 394566304
+[10570.771821] sd 4:0:0:0: [sdb] tag#24 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10570.771822] sd 4:0:0:0: [sdb] tag#24 CDB: opcode=0x28 28 00 17 84 9a a0 00 00 08 00
+[10570.771823] blk_update_request: I/O error, dev sdb, sector 394566304
+[10570.779086] sd 4:0:0:0: [sdb] tag#25 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10570.779088] sd 4:0:0:0: [sdb] tag#25 CDB: opcode=0x28 28 00 17 84 ab 40 00 00 08 00
+[10570.779090] blk_update_request: I/O error, dev sdb, sector 394570560
+[10570.779102] sd 4:0:0:0: [sdb] tag#26 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10570.779104] sd 4:0:0:0: [sdb] tag#26 CDB: opcode=0x28 28 00 17 84 ab 40 00 00 08 00
+[10570.779105] blk_update_request: I/O error, dev sdb, sector 394570560
+[10572.570598] sd 4:0:0:0: [sdb] tag#27 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10572.570602] sd 4:0:0:0: [sdb] tag#27 CDB: opcode=0x28 28 00 35 a9 88 00 00 00 20 00
+[10572.570604] blk_update_request: I/O error, dev sdb, sector 900302848
+[10572.570624] sd 4:0:0:0: [sdb] tag#28 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10572.570627] sd 4:0:0:0: [sdb] tag#28 CDB: opcode=0x28 28 00 35 a9 88 00 00 00 08 00
+[10572.570629] blk_update_request: I/O error, dev sdb, sector 900302848
+[10572.570631] Buffer I/O error on dev sdb3, logical block 0, async page read
+[10572.571993] blk_update_request: I/O error, dev sdb, sector 0
+[10572.573287] sd 4:0:0:0: [sdb] tag#0 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10572.573290] sd 4:0:0:0: [sdb] tag#0 CDB: opcode=0x28 28 00 74 70 5f 80 00 00 08 00
+[10572.573292] blk_update_request: I/O error, dev sdb, sector 1953521536
+[10572.573327] sd 4:0:0:0: [sdb] tag#1 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10572.573330] sd 4:0:0:0: [sdb] tag#1 CDB: opcode=0x28 28 00 74 70 5f 80 00 00 08 00
+[10572.573332] blk_update_request: I/O error, dev sdb, sector 1953521536
+[10572.573334] Buffer I/O error on dev sdb3, logical block 131652336, async page read
+[10715.544646] sd 4:0:0:0: [sdb] tag#3 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10715.544650] sd 4:0:0:0: [sdb] tag#3 CDB: opcode=0x28 28 00 74 70 5f 80 00 00 08 00
+[10715.544652] blk_update_request: I/O error, dev sdb, sector 1953521536
+[10715.544692] sd 4:0:0:0: [sdb] tag#4 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10715.544695] sd 4:0:0:0: [sdb] tag#4 CDB: opcode=0x28 28 00 74 70 5f 80 00 00 08 00
+[10715.544697] blk_update_request: I/O error, dev sdb, sector 1953521536
+[10715.544699] Buffer I/O error on dev sdb3, logical block 131652336, async page read
+[10715.544880] sd 4:0:0:0: [sdb] tag#6 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10715.544885] sd 4:0:0:0: [sdb] tag#6 CDB: opcode=0x28 28 00 35 a9 88 02 00 00 02 00
+[10715.544887] blk_update_request: I/O error, dev sdb, sector 900302850
+[10715.544896] EXT4-fs (sdb3): unable to read superblock
+[10715.544938] sd 4:0:0:0: [sdb] tag#8 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10715.544940] sd 4:0:0:0: [sdb] tag#8 CDB: opcode=0x28 28 00 35 a9 88 02 00 00 02 00
+[10715.544941] blk_update_request: I/O error, dev sdb, sector 900302850
+[10715.544947] EXT4-fs (sdb3): unable to read superblock
+[10715.544977] sd 4:0:0:0: [sdb] tag#10 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10715.544979] sd 4:0:0:0: [sdb] tag#10 CDB: opcode=0x28 28 00 35 a9 88 02 00 00 02 00
+[10715.544980] blk_update_request: I/O error, dev sdb, sector 900302850
+[10715.544986] EXT4-fs (sdb3): unable to read superblock
+[10715.545017] sd 4:0:0:0: [sdb] tag#12 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10715.545019] sd 4:0:0:0: [sdb] tag#12 CDB: opcode=0x28 28 00 35 a9 88 00 00 00 01 00
+[10715.545020] blk_update_request: I/O error, dev sdb, sector 900302848
+[10715.545025] FAT-fs (sdb3): unable to read boot sector
+[10732.301079] sd 4:0:0:0: [sdb] tag#14 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10732.301085] sd 4:0:0:0: [sdb] tag#14 CDB: opcode=0x28 28 00 14 04 5a c0 00 00 08 00
+[10732.301087] blk_update_request: I/O error, dev sdb, sector 335829696
+[10732.301109] sd 4:0:0:0: [sdb] tag#15 UNKNOWN(0x2003) Result: hostbyte=0x04 driverbyte=0x00
+[10732.301112] sd 4:0:0:0: [sdb] tag#15 CDB: opcode=0x28 28 00 14 04 5a c0 00 00 08 00
+[10732.301113] blk_update_request: I/O error, dev sdb, sector 335829696
