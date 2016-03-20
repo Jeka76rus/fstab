@@ -1,0 +1,122 @@
+/home/jeka/.local/share/Steam/steam.sh: line 161: VERSION_ID: unbound variable
+/home/jeka/.local/share/Steam/steam.sh: line 161: VERSION_ID: unbound variable
+Running Steam on gentoo  64-bit
+/home/jeka/.local/share/Steam/steam.sh: line 161: VERSION_ID: unbound variable
+STEAM_RUNTIME is enabled automatically
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+
+(steam:7345): Gtk-WARNING **: Загружаемый модуль тем не найден в module_path: «adwaita»,
+
+(steam:7345): Gtk-WARNING **: Загружаемый модуль тем не найден в module_path: «adwaita»,
+/home/jeka/.themes/Arc-Darker/gtk-2.0/main.rc:1091: error: unexpected identifier `direction', expected character `}'
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 78: saw unknown, expected number
+[0320/195016:ERROR:main_delegate.cc(777)] Could not load cef_extensions.pak
+[0320/195016:ERROR:browser_main_loop.cc(203)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+Installing breakpad exception handler for appid(steamwebhelper)/version(20160310103928)
+Installing breakpad exception handler for appid(steamwebhelper)/version(1457606368)
+[0320/195016:ERROR:main_delegate.cc(777)] Could not load cef_extensions.pak
+Installing breakpad exception handler for appid(steamwebhelper)/version(20160310103928)
+Installing breakpad exception handler for appid(steamwebhelper)/version(1457636973)
+Installing breakpad exception handler for appid(steamwebhelper)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Created shared memory when not owner SteamController_Shared_mem
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+
+** (steam:7345): WARNING **: Unknown device type 14
+
+** (steam:7345): WARNING **: Could not create object for /org/freedesktop/NetworkManager/Devices/1: unknown object type
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+
+** (steam:7345): WARNING **: Ignoring invalid property 'autoconnect-priority'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'secondaries'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'route-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'address-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'route-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'address-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'autoconnect-priority'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'secondaries'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'route-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'address-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'route-data'
+
+** (steam:7345): WARNING **: Ignoring invalid property 'address-data'
+Generating new string page texture 2: 48x256, total string texture memory is 49,15 KB
+Generating new string page texture 3: 256x256, total string texture memory is 311,30 KB
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+roaming config store loaded successfully - 1421 bytes.
+migrating temporary roaming config store
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 78: saw unknown, expected number
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+Failed to init SteamVR because it isn't installed
+sh: lspci: команда не найдена
+ExecCommandLine: ""/home/jeka/.local/share/Steam/ubuntu12_32/steam" "
+Installing breakpad exception handler for appid(steam)/version(1457636973)
+System startup time: 3,66 seconds
+/home/jeka/.steam/root/steam.sh: line 161: VERSION_ID: unbound variable
+Generating new string page texture 74: 1024x256, total string texture memory is 1,36 MB
+Generating new string page texture 75: 128x256, total string texture memory is 131,07 KB
+Generating new string page texture 76: 128x256, total string texture memory is 1,49 MB
+Generating new string page texture 77: 64x256, total string texture memory is 1,56 MB
+Generating new string page texture 78: 8x256, total string texture memory is 1,56 MB
+Generating new string page texture 79: 32x256, total string texture memory is 1,60 MB
+/home/jeka/.steam/root/steam.sh: line 161: VERSION_ID: unbound variable
+Running Steam on gentoo  64-bit
+STEAM_RUNTIME has been set by the user to: /home/jeka/.local/share/Steam/ubuntu12_32/steam-runtime
+Generating new string page texture 84: 128x256, total string texture memory is 1,73 MB
+Generating new string page texture 86: 256x256, total string texture memory is 1,99 MB
+Generating new string page texture 87: 384x256, total string texture memory is 2,38 MB
+ExecCommandLine: "/home/jeka/.steam/root/ubuntu12_32/steam steam://open/driverhelperready"
+ExecSteamURL: "steam://open/driverhelperready"
+Generating new string page texture 122: 512x256, total string texture memory is 2,91 MB
+Generating new string page texture 153: 128x256, total string texture memory is 3,04 MB
+Generating new string page texture 155: 48x256, total string texture memory is 3,09 MB
+Generating new string page texture 156: 24x256, total string texture memory is 3,11 MB
+Generating new string page texture 182: 16x256, total string texture memory is 3,13 MB
+Generating new string page texture 208: 256x256, total string texture memory is 3,39 MB
+Generating new string page texture 209: 128x256, total string texture memory is 3,52 MB
+Generating new string page texture 229: 256x256, total string texture memory is 393,22 KB
+Game update: AppID 730 "Counter-Strike: Global Offensive", ProcID 7477, IP 0.0.0.0:0
+ERROR: ld.so: object '/home/jeka/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/jeka/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/jeka/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+pid 7484 != 7483, skipping destruction (fork without exec?)
+ERROR: ld.so: object '/home/jeka/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/jeka/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+SDL video target is 'x11'
+Failed to create SDL window: Couldn't find matching GLX visual/home/jeka/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo.sh: line 57:  7486 Ошибка сегментирования                   ${DEBUGGER} "${GAMEROOT}"/${GAMEEXE} "$@"
+Game removed: AppID 730 "Counter-Strike: Global Offensive", ProcID 7477 
+Refresh rate: 1
+Refresh rate: 1
+Refresh rate: 1
+Refresh rate: 1
+Refresh rate: 1
+Refresh rate: 1
+Refresh rate: 1
+Refresh rate: 1
+[2016-03-20 19:50:16] Startup - updater built Mar 10 2016 10:39:59
+[2016-03-20 19:50:16] Verifying installation...
+[2016-03-20 19:50:16] Verification complete
+[2016-03-20 19:50:44] Shutdown

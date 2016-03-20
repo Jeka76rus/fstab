@@ -1,0 +1,219 @@
+[   393.789] 
+X.Org X Server 1.17.4
+Release Date: 2015-10-28
+[   393.789] X Protocol Version 11, Revision 0
+[   393.789] Build Operating System: Linux 4.1.15-gentoo-r1 x86_64 Gentoo
+[   393.789] Current Operating System: Linux Asus 4.5.0-gentoo #1 SMP Sun Mar 20 00:24:00 MSK 2016 x86_64
+[   393.789] Kernel command line: BOOT_IMAGE=/boot/kernel-genkernel-x86_64-4.5.0-gentoo root=UUID=644e5073-7b0c-42b8-b1c4-78d6f493639f ro init=/usr/lib/systemd/systemd
+[   393.789] Build Date: 19 March 2016  03:24:04PM
+[   393.789]  
+[   393.789] Current version of pixman: 0.32.8
+[   393.789] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   393.789] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   393.789] (==) Log file: "/var/log/Xorg.8.log", Time: Sun Mar 20 19:50:33 2016
+[   393.789] (++) Using config file: "/etc/bumblebee/xorg.conf.nvidia"
+[   393.789] (++) Using config directory: "/etc/bumblebee/xorg.conf.d"
+[   393.789] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   393.789] (==) ServerLayout "Layout0"
+[   393.789] (==) No screen section available. Using defaults.
+[   393.789] (**) |-->Screen "Default Screen Section" (0)
+[   393.789] (**) |   |-->Monitor "<default monitor>"
+[   393.789] (==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+[   393.789] (**) |   |-->Device "DiscreteNvidia"
+[   393.789] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   393.789] (**) Option "AutoAddDevices" "false"
+[   393.789] (**) Option "AutoAddGPU" "false"
+[   393.789] (**) Not automatically adding devices
+[   393.789] (==) Automatically enabling devices
+[   393.789] (**) Not automatically adding GPU devices
+[   393.789] (WW) The directory "/usr/share/fonts/TTF/" does not exist.
+[   393.789] 	Entry deleted from font path.
+[   393.789] (WW) The directory "/usr/share/fonts/OTF/" does not exist.
+[   393.789] 	Entry deleted from font path.
+[   393.789] (WW) The directory "/usr/share/fonts/Type1/" does not exist.
+[   393.789] 	Entry deleted from font path.
+[   393.789] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi/".
+[   393.789] 	Entry deleted from font path.
+[   393.789] 	(Run 'mkfontdir' on "/usr/share/fonts/75dpi/").
+[   393.789] (==) FontPath set to:
+	/usr/share/fonts/misc/,
+	/usr/share/fonts/100dpi/
+[   393.789] (++) ModulePath set to "/usr/lib64/opengl/nvidia/lib,/usr/lib64/opengl/nvidia/extensions,/usr/lib64/xorg/modules/drivers,/usr/lib64/xorg/modules"
+[   393.789] (==) |-->Input Device "<default pointer>"
+[   393.789] (==) |-->Input Device "<default keyboard>"
+[   393.789] (==) The core pointer device wasn't specified explicitly in the layout.
+	Using the default mouse configuration.
+[   393.789] (==) The core keyboard device wasn't specified explicitly in the layout.
+	Using the default keyboard configuration.
+[   393.789] (II) Loader magic: 0x811d40
+[   393.789] (II) Module ABI versions:
+[   393.789] 	X.Org ANSI C Emulation: 0.4
+[   393.789] 	X.Org Video Driver: 19.0
+[   393.789] 	X.Org XInput driver : 21.0
+[   393.789] 	X.Org Server Extension : 9.0
+[   393.790] (EE) systemd-logind: failed to get session: PID 7479 does not belong to any known session
+[   393.790] (II) xfree86: Adding drm device (/dev/dri/card1)
+[   393.790] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   393.790] (EE) /dev/dri/card0: failed to set DRM interface version 1.4: Permission denied
+[   393.791] (--) PCI:*(0:1:0:0) 10de:11e3:1043:22ba rev 161, Mem @ 0xf6000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432, I/O @ 0x0000e000/128, BIOS @ 0x????????/524288
+[   393.791] (II) LoadModule: "glx"
+[   393.792] (II) Loading /usr/lib64/opengl/nvidia/extensions/libglx.so
+[   393.794] (II) Module glx: vendor="NVIDIA Corporation"
+[   393.794] 	compiled for 4.0.2, module version = 1.0.0
+[   393.794] 	Module class: X.Org Server Extension
+[   393.794] (II) NVIDIA GLX Module  361.28  Wed Feb  3 15:10:57 PST 2016
+[   393.794] (II) LoadModule: "nvidia"
+[   393.795] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[   393.795] (II) Module nvidia: vendor="NVIDIA Corporation"
+[   393.795] 	compiled for 4.0.2, module version = 1.0.0
+[   393.795] 	Module class: X.Org Video Driver
+[   393.795] (II) LoadModule: "mouse"
+[   393.795] (II) Loading /usr/lib64/xorg/modules/input/mouse_drv.so
+[   393.795] (II) Module mouse: vendor="X.Org Foundation"
+[   393.795] 	compiled for 1.17.4, module version = 1.9.1
+[   393.795] 	Module class: X.Org XInput Driver
+[   393.795] 	ABI class: X.Org XInput driver, version 21.0
+[   393.795] (II) LoadModule: "kbd"
+[   393.795] (II) Loading /usr/lib64/xorg/modules/input/kbd_drv.so
+[   393.795] (II) Module kbd: vendor="X.Org Foundation"
+[   393.795] 	compiled for 1.17.4, module version = 1.8.1
+[   393.795] 	Module class: X.Org XInput Driver
+[   393.795] 	ABI class: X.Org XInput driver, version 21.0
+[   393.795] (II) NVIDIA dlloader X Driver  361.28  Wed Feb  3 14:48:10 PST 2016
+[   393.795] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[   393.795] (--) using VT number 7
+
+[   393.795] (II) Loading sub module "fb"
+[   393.795] (II) LoadModule: "fb"
+[   393.795] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[   393.795] (II) Module fb: vendor="X.Org Foundation"
+[   393.795] 	compiled for 1.17.4, module version = 1.0.0
+[   393.795] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   393.795] (II) Loading sub module "wfb"
+[   393.795] (II) LoadModule: "wfb"
+[   393.795] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[   393.796] (II) Module wfb: vendor="X.Org Foundation"
+[   393.796] 	compiled for 1.17.4, module version = 1.0.0
+[   393.796] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   393.796] (II) Loading sub module "ramdac"
+[   393.796] (II) LoadModule: "ramdac"
+[   393.796] (II) Module "ramdac" already built-in
+[   393.796] (II) NVIDIA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   393.796] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[   393.796] (==) NVIDIA(0): RGB weight 888
+[   393.796] (==) NVIDIA(0): Default visual is TrueColor
+[   393.796] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[   393.796] (**) NVIDIA(0): Option "NoLogo" "true"
+[   393.796] (**) NVIDIA(0): Option "ProbeAllGpus" "false"
+[   393.796] (**) NVIDIA(0): Option "UseEDID" "false"
+[   393.796] (**) NVIDIA(0): Option "UseDisplayDevice" "none"
+[   393.796] (**) NVIDIA(0): Enabling 2D acceleration
+[   393.796] (**) NVIDIA(0): Ignoring EDIDs
+[   393.796] (**) NVIDIA(0): Option "UseDisplayDevice" set to "none"; enabling NoScanout
+[   393.796] (**) NVIDIA(0):     mode
+[   394.055] (II) NVIDIA(GPU-0): Found DRM driver nvidia-drm (20150116)
+[   394.056] (II) NVIDIA(0): NVIDIA GPU GeForce GTX 760M (GK106) at PCI:1:0:0 (GPU-0)
+[   394.056] (--) NVIDIA(0): Memory: 2097152 kBytes
+[   394.056] (--) NVIDIA(0): VideoBIOS: 80.06.67.00.02
+[   394.056] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[   394.056] (II) NVIDIA(0): Validated MetaModes:
+[   394.056] (II) NVIDIA(0):     "NULL"
+[   394.056] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[   394.056] (WW) NVIDIA(0): Unable to get display device for DPI computation.
+[   394.056] (==) NVIDIA(0): DPI set to (75, 75); computed from built-in default
+[   394.056] (--) Depth 24 pixmap format is 32 bpp
+[   394.056] (II) NVIDIA: Using 3072.00 MB of virtual memory for indirect memory
+[   394.056] (II) NVIDIA:     access.
+[   394.074] (II) NVIDIA(0): Setting mode "NULL"
+[   394.077] (==) NVIDIA(0): Disabling shared memory pixmaps
+[   394.077] (==) NVIDIA(0): Backing store enabled
+[   394.077] (==) NVIDIA(0): Silken mouse enabled
+[   394.077] (==) NVIDIA(0): DPMS enabled
+[   394.077] (II) Loading sub module "x11glvnd"
+[   394.077] (II) LoadModule: "x11glvnd"
+[   394.077] (WW) Warning, couldn't open module x11glvnd
+[   394.077] (II) UnloadModule: "x11glvnd"
+[   394.077] (II) Unloading x11glvnd
+[   394.077] (II) x11glvnd Loading
+[   394.077] (II) Loading sub module "dri2"
+[   394.077] (II) LoadModule: "dri2"
+[   394.077] (II) Module "dri2" already built-in
+[   394.077] (II) NVIDIA(0): [DRI2] Setup complete
+[   394.077] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[   394.077] (--) RandR disabled
+[   394.077] (II) Initializing extension GLX
+[   394.077] (II) Indirect GLX disabled.
+[   394.095] (II) Using input driver 'mouse' for '<default pointer>'
+[   394.095] (**) Option "CorePointer" "on"
+[   394.095] (**) <default pointer>: always reports core events
+[   394.095] (WW) <default pointer>: No Device specified, looking for one...
+[   394.143] (II) <default pointer>: Setting Device option to "/dev/input/mice"
+[   394.143] (--) <default pointer>: Device: "/dev/input/mice"
+[   394.143] (==) <default pointer>: Protocol: "Auto"
+[   394.143] (**) <default pointer>: always reports core events
+[   394.143] (**) Option "Device" "/dev/input/mice"
+[   394.193] (==) <default pointer>: Emulate3Buttons, Emulate3Timeout: 50
+[   394.193] (**) <default pointer>: ZAxisMapping: buttons 4 and 5
+[   394.193] (**) <default pointer>: Buttons: 9
+[   394.193] (II) XINPUT: Adding extended input device "<default pointer>" (type: MOUSE, id 6)
+[   394.193] (**) <default pointer>: (accel) keeping acceleration scheme 1
+[   394.193] (**) <default pointer>: (accel) acceleration profile 0
+[   394.193] (**) <default pointer>: (accel) acceleration factor: 2.000
+[   394.193] (**) <default pointer>: (accel) acceleration threshold: 4
+[   394.193] (II) <default pointer>: Setting mouse protocol to "ExplorerPS/2"
+[   394.485] (II) <default pointer>: ps2EnableDataReporting: succeeded
+[   394.485] (II) Using input driver 'kbd' for '<default keyboard>'
+[   394.485] (**) Option "CoreKeyboard" "on"
+[   394.485] (**) <default keyboard>: always reports core events
+[   394.485] (**) <default keyboard>: always reports core events
+[   394.485] (**) Option "Protocol" "standard"
+[   394.485] (EE) kbd: <default keyboard>: failed to set us as foreground pgrp (Inappropriate ioctl for device)
+[   394.485] (**) Option "XkbRules" "base"
+[   394.485] (**) Option "XkbModel" "pc105"
+[   394.485] (**) Option "XkbLayout" "us"
+[   394.485] (II) XINPUT: Adding extended input device "<default keyboard>" (type: KEYBOARD, id 7)
+[   394.490] (II) config/udev: Adding input device Power Button (/dev/input/event7)
+[   394.490] (II) AutoAddDevices is off - not adding device.
+[   394.490] (II) config/udev: Adding input device Video Bus (/dev/input/event12)
+[   394.490] (II) AutoAddDevices is off - not adding device.
+[   394.490] (II) config/udev: Adding input device Video Bus (/dev/input/event11)
+[   394.490] (II) AutoAddDevices is off - not adding device.
+[   394.491] (II) config/udev: Adding input device Lid Switch (/dev/input/event5)
+[   394.491] (II) AutoAddDevices is off - not adding device.
+[   394.491] (II) config/udev: Adding input device Sleep Button (/dev/input/event6)
+[   394.491] (II) AutoAddDevices is off - not adding device.
+[   394.491] (II) config/udev: Adding drm device (/dev/dri/card0)
+[   394.491] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   394.491] (EE) /dev/dri/card0: failed to set DRM interface version 1.4: Permission denied
+[   394.491] (II) config/udev: Adding input device HDA Intel HDMI HDMI (/dev/input/event13)
+[   394.491] (II) AutoAddDevices is off - not adding device.
+[   394.492] (II) config/udev: Adding input device USB OPTICAL MOUSE (/dev/input/event1)
+[   394.492] (II) AutoAddDevices is off - not adding device.
+[   394.492] (II) config/udev: Adding input device USB OPTICAL MOUSE (/dev/input/mouse0)
+[   394.492] (II) AutoAddDevices is off - not adding device.
+[   394.492] (II) config/udev: Adding input device   USB Keyboard (/dev/input/event3)
+[   394.492] (II) AutoAddDevices is off - not adding device.
+[   394.492] (II) config/udev: Adding input device   USB Keyboard (/dev/input/event4)
+[   394.492] (II) AutoAddDevices is off - not adding device.
+[   394.493] (II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event9)
+[   394.493] (II) AutoAddDevices is off - not adding device.
+[   394.493] (II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event10)
+[   394.493] (II) AutoAddDevices is off - not adding device.
+[   394.493] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   394.493] (II) AutoAddDevices is off - not adding device.
+[   394.493] (II) config/udev: Adding input device PS/2 Logitech Wheel Mouse (/dev/input/event2)
+[   394.493] (II) AutoAddDevices is off - not adding device.
+[   394.493] (II) config/udev: Adding input device PS/2 Logitech Wheel Mouse (/dev/input/mouse1)
+[   394.493] (II) AutoAddDevices is off - not adding device.
+[   394.493] (II) config/udev: Adding input device PC Speaker (/dev/input/event8)
+[   394.494] (II) AutoAddDevices is off - not adding device.
+[   398.354] (II) UnloadModule: "kbd"
+[   398.354] (II) UnloadModule: "mouse"
+[   398.377] (II) NVIDIA(GPU-0): Deleting GPU-0
+[   398.377] (II) Server terminated successfully (0). Closing log file.
