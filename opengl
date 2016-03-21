@@ -1,0 +1,3 @@
+Available OpenGL implementations:
+  [1]   nvidia
+  [2]   xorg-x11 *

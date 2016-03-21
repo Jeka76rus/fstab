@@ -1,0 +1,11 @@
++X
++acpi
+-compat
++driver
++gtk3
++kms
++multilib
+-pax_kernel
+-static-libs
++tools
+-uvm
