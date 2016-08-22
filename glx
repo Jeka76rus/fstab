@@ -1,3 +1,0 @@
-lrwxrwxrwx 1 root root     19 мар 19 15:18 /usr/lib32/libxcb-glx.so -> libxcb-glx.so.0.0.0
-lrwxrwxrwx 1 root root     19 мар 19 15:18 /usr/lib32/libxcb-glx.so.0 -> libxcb-glx.so.0.0.0
--rwxr-xr-x 1 root root 103656 мар 19 15:18 /usr/lib32/libxcb-glx.so.0.0.0
