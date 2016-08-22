@@ -1,0 +1,56 @@
+авг 22 10:54:01 AsusN56JR dbus-daemon[692]: Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service'
+авг 22 10:54:01 AsusN56JR systemd[663]: Starting GNOME Terminal Server...
+авг 22 10:54:01 AsusN56JR dbus-daemon[692]: Successfully activated service 'org.gnome.Terminal'
+авг 22 10:54:01 AsusN56JR systemd[663]: Started GNOME Terminal Server.
+авг 22 10:54:06 AsusN56JR sudo[3165]:     jeka : a password is required ; TTY=pts/0 ; PWD=/home/jeka ; USER=root ; COMMAND=list /usr/sbin/pacman --color auto -Syy
+авг 22 10:54:07 AsusN56JR sudo[3167]:     jeka : TTY=pts/0 ; PWD=/home/jeka ; USER=root ; COMMAND=validate
+авг 22 10:54:07 AsusN56JR sudo[3170]:     jeka : TTY=pts/0 ; PWD=/home/jeka ; USER=root ; COMMAND=list /usr/sbin/pacman --color auto -Syy
+авг 22 10:54:07 AsusN56JR sudo[3171]:     jeka : TTY=pts/0 ; PWD=/home/jeka ; USER=root ; COMMAND=/usr/sbin/pacman --color auto -Syy
+авг 22 10:54:07 AsusN56JR sudo[3171]: pam_unix(sudo:session): session opened for user root by (uid=0)
+авг 22 10:54:10 AsusN56JR sudo[3171]: pam_unix(sudo:session): session closed for user root
+авг 22 10:54:12 AsusN56JR sudo[3271]:     jeka : TTY=pts/0 ; PWD=/home/jeka ; USER=root ; COMMAND=list /usr/sbin/pacman --color auto -S -u
+авг 22 10:54:12 AsusN56JR sudo[3272]:     jeka : TTY=pts/0 ; PWD=/home/jeka ; USER=root ; COMMAND=/usr/sbin/pacman --color auto -S -u
+авг 22 10:54:12 AsusN56JR sudo[3272]: pam_unix(sudo:session): session opened for user root by (uid=0)
+авг 22 10:54:18 AsusN56JR sudo[3272]: pam_unix(sudo:session): session closed for user root
+авг 22 10:54:22 AsusN56JR gnome-session[3594]: /usr/lib/gnome-session/gnome-session-binary 3.20.2
+авг 22 10:54:24 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:24 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:24 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:24 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:24 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:24 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:31 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:31 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:31 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:31 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:32 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:38 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:54:38 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:55:39 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:55:39 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:55:39 AsusN56JR dbus-daemon[692]: Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service'
+авг 22 10:55:39 AsusN56JR systemd[663]: Starting GNOME Terminal Server...
+авг 22 10:55:39 AsusN56JR gnome-terminal-server[3799]: Non UTF-8 locale (ANSI_X3.4-1968) is not supported!
+авг 22 10:55:39 AsusN56JR systemd[663]: gnome-terminal-server.service: Main process exited, code=exited, status=8/n/a
+авг 22 10:55:39 AsusN56JR systemd[663]: Failed to start GNOME Terminal Server.
+авг 22 10:55:39 AsusN56JR systemd[663]: gnome-terminal-server.service: Unit entered failed state.
+авг 22 10:55:39 AsusN56JR systemd[663]: gnome-terminal-server.service: Failed with result 'exit-code'.
+авг 22 10:55:41 AsusN56JR dbus-daemon[692]: Activating service name='org.gnome.Nautilus'
+авг 22 10:55:41 AsusN56JR dbus-daemon[692]: Successfully activated service 'org.gnome.Nautilus'
+авг 22 10:55:41 AsusN56JR org.gnome.Nautilus[692]: (nautilus:3803): Gtk-WARNING **: Theme parsing error: <broken file>:1:0: Failed to import: The resource at '/org/gnome/libgd/tagged-entry/default.css' does not exist
+авг 22 10:55:41 AsusN56JR dbus[558]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+авг 22 10:55:41 AsusN56JR systemd[1]: Starting Hostname Service...
+авг 22 10:55:41 AsusN56JR dbus[558]: [system] Successfully activated service 'org.freedesktop.hostname1'
+авг 22 10:55:41 AsusN56JR systemd[1]: Started Hostname Service.
+авг 22 10:55:53 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:55:53 AsusN56JR org.gnome.Shell.desktop[730]: (gnome-shell:730): St-WARNING **: Ignoring excess values in shadow definition
+авг 22 10:56:04 AsusN56JR org.gnome.Terminal.desktop[3794]: Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Ошибка вызова StartServiceByName для org.gnome.Terminal: Время ожидания истекло
