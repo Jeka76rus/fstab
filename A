@@ -1,0 +1,5 @@
+[jeka@AsusN56JR bag]$ cat /proc/$(pidof gnome-terminal-server)/environ | tr '\000' '\n' environ
+tr: лишний операнд «environ»
+По команде «tr --help» можно получить дополнительную информацию.
+cat: /proc//environ: Нет такого файла или каталога
+[jeka@AsusN56JR bag]$
