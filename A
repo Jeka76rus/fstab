@@ -1,5 +1,11 @@
-[jeka@AsusN56JR bag]$ cat /proc/$(pidof gnome-terminal-server)/environ | tr '\000' '\n' environ
-tr: лишний операнд «environ»
-По команде «tr --help» можно получить дополнительную информацию.
-cat: /proc//environ: Нет такого файла или каталога
-[jeka@AsusN56JR bag]$
+итого 28
+drwxr-xr-x 7 root root 4096 авг 25 14:06 .
+drwxr-xr-x 5 root root 4096 июл 26 00:10 ..
+lrwxrwxrwx 1 root root   46 авг 17 04:57 dbus-org.freedesktop.NetworkManager.service -> /usr/lib/systemd/system/NetworkManager.service
+lrwxrwxrwx 1 root root   57 авг 17 04:57 dbus-org.freedesktop.nm-dispatcher.service -> /usr/lib/systemd/system/NetworkManager-dispatcher.service
+lrwxrwxrwx 1 root root   35 авг 25 14:06 display-manager.service -> /usr/lib/systemd/system/gdm.service
+drwxr-xr-x 2 root root 4096 авг 17 03:48 getty.target.wants
+drwxr-xr-x 2 root root 4096 авг 17 02:22 graphical.target.wants
+drwxr-xr-x 2 root root 4096 авг 17 02:41 multi-user.target.wants
+drwxr-xr-x 2 root root 4096 авг 17 02:40 sleep.target.wants
+drwxr-xr-x 2 root root 4096 авг 17 05:03 sysinit.target.wants
